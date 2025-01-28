@@ -15,6 +15,6 @@ public class App {
         SnakeGame snakeGame = new SnakeGame(boardWidth, boardHeight);
         frame.add(snakeGame);
         frame.pack(); // to not to include the head panel on the frame of the snake game
-
+        snakeGame.requestFocus(); // to listen to the key presses
     }
 }
