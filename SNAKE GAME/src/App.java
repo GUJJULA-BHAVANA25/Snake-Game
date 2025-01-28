@@ -12,6 +12,9 @@ public class App {
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // this is going to set that to the program will terminate
                                                               // when the user click on x button on the window
+        SnakeGame snakeGame = new SnakeGame(boardWidth, boardHeight);
+        frame.add(snakeGame);
+        frame.pack(); // to not to include the head panel on the frame of the snake game
 
     }
 }
