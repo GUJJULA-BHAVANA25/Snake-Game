@@ -1,9 +1,7 @@
 import java.awt.*;
-import java.awt.RenderingHints.Key;
 import java.awt.event.*;
 import java.util.ArrayList; //this is going to used for storing the segments of the snake body
-import java.util.Random;
-import java.util.random.*; //this is going to be used for getting random x and y values to place our food on the screen
+import java.util.Random; //this is going to be used for getting random x and y values to place our food on the screen
 import javax.swing.*;
 
 //we had a snake and food . now we need to make the snake move to make the snake move we need to create a game loop.so when we making the snake move then we are changing the x and y position of the snake and to reflect that on the frame we need to redraw the panel.so we draw the new rectangle with the updated x and y positions for that reason we need a game loop so that the game loop will constantly redraw the frames.to create game loop we need a timer.
